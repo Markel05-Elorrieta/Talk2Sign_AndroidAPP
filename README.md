@@ -27,7 +27,7 @@ Gure helburua entzumen-desgaitasuna duten pertsonentzako komunikazioa erraztea d
 
 ## Instalazioa eta erabilera
 
-1. Deskargatu aplikazioa App Store edo Google Play dendetatik.
+1. Deskargatu aplikazioa webgune ofizialetik.
 2. Instalatu mugikorrean.
 3. Abiarazi aplikazioa eta aukeratu hizkuntza.
 4. Erabili mikrofonoa edo testu sarrera hitzak zeinu-hizkuntzara itzultzeko.
