@@ -1,4 +1,4 @@
-Dpackage com.zukbadakizu.talk2sign;
+package com.zukbadakizu.talk2sign;
 
 import android.os.Bundle;
 
