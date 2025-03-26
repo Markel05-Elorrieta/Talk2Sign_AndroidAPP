@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">Talk2Sign</string>
+    <string name="app_description">Modern and automated sign translator</string>
+    <string name="name">Name</string>
+    <string name="name_placeholder">Enter your name</string>
+    <string name="surname">Surname</string>
+    <string name="surname_placeholder">Enter your surname</string>
+    <string name="email">Email</string>
+    <string name="email_placeholder">Enter your email</string>
+    <string name="password">Password</string>
+    <string name="password_placeholder">Enter your password</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="birth_date_placeholder">Enter your birth date</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="repeat_password_placeholder">Repeat your password</string>
+    <string name="register">Register</string>
+    <string name="register_now">Register Now</string>
+    <string name="login_prompt">Log in to your account!</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot your password? Click here.</string>
+    <string name="remember_password">Remember Password</string>
+    <string name="new_here">New here? Register now!</string>
+    <string name="continue_without_registering">Continue without registering</string>
+    <string name="recover_password">Recover Password</string>
+    <string name="send">Send</string>
+    <string name="profile">My Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="app_language">App Language</string>
+    <string name="translator_language">Translator Language</string>
+    <string name="app_appearance">App Appearance</string>
+    <string name="dark_mode">Dark</string>
+    <string name="change_settings_here">You can change the app details here.</string>
 </resources>

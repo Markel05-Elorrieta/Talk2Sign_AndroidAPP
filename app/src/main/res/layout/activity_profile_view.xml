@@ -1,10 +1,205 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileView">
+    android:background="#FFFFFF"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:id="@+id/r5169s34ygg8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#292E32">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ryzdso0j8wr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginBottom="7dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/riyr2p0ms88l"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="78dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/r6yadc2ps6mg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nire profila"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rzjo8zsg0epl"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="63dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rijdvcpkf3g"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="96dp"
+                android:orientation="vertical"
+                android:paddingHorizontal="16dp">
+
+                <EditText
+                    android:id="@+id/r5ucqrpnjgzk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/background_txtviews"
+                    android:hint="Izena"
+                    android:inputType="text"
+                    android:paddingVertical="17dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="32dp"
+                    android:textColor="#919191"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/r632plwcx9j3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/background_txtviews"
+                    android:hint="Abizenak"
+                    android:inputType="text"
+                    android:paddingVertical="17dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="32dp"
+                    android:textColor="#919191"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/rzh43qxuj2xa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/background_txtviews"
+                    android:hint="E-posta"
+                    android:inputType="text"
+                    android:paddingVertical="17dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="32dp"
+                    android:textColor="#919191"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/r3j3uvnd69ct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/background_txtviews"
+                    android:hint="Pasahitza"
+                    android:inputType="text"
+                    android:paddingVertical="17dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="32dp"
+                    android:textColor="#919191"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/r09ic2frbdn9m"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_txtviews"
+                    android:hint="Jaiotze-data"
+                    android:inputType="text"
+                    android:paddingVertical="17dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="32dp"
+                    android:textColor="#919191"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rq6vmf9jj7af"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="27dp"
+                android:background="@drawable/secondary_button"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingVertical="17dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/r766oti8zs3w"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/riwndqi2q6wa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pasahitza aldatu"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rqfzisxqypy9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="18dp"
+                android:layout_marginBottom="84dp"
+                android:background="@drawable/buttons_color"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingVertical="17dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/rzkgthdwme88"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/rshyslbs5jh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gorde aldaketak"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/r298f6ovectl"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

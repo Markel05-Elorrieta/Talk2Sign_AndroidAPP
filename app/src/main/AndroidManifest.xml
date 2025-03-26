@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Talk2Sign"
         tools:targetApi="31">
         <activity
+            android:name=".aaaaaaa"
+            android:exported="false" />
+        <activity
             android:name=".MainView"
             android:exported="false" />
         <activity
